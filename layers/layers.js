@@ -47,13 +47,13 @@ var lyr_ClasificacinNoSupervisadaTRINCHERA_2 = new ol.layer.Vector({
                 popuplayertitle: 'Clasificación No Supervisada TRINCHERA',
                 interactive: false,
     title: 'Clasificación No Supervisada TRINCHERA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_0.png" /> 1. CUERPOS DE AGUA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_1.png" /> 2. VEGETACION MEDIA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_2.png" /> 3. BOSQUE NATURAL<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_3.png" /> 4. AREA PRODUCTIVA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_4.png" /> 5. VEGETACION BAJA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_5.png" /> 6. SUELO DESNUDO<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_6.png" /> 7. AREAS CULTURALES<br />' });
+    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_0.png" /> 1 - CUERPOS DE AGUA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_1.png" /> 2 - VEGETACION MEDIA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_2.png" /> 3 - BOSQUE NATURAL<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_3.png" /> 4 - AREA PRODUCTIVA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_4.png" /> 5 - VEGETACION BAJA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_5.png" /> 6 - SUELO DESNUDO<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaTRINCHERA_2_6.png" /> 7 - AREAS CULTURALES<br />' });
 var format_ClasificacinNoSupervisadaTRESCRUCES_3 = new ol.format.GeoJSON();
 var features_ClasificacinNoSupervisadaTRESCRUCES_3 = format_ClasificacinNoSupervisadaTRESCRUCES_3.readFeatures(json_ClasificacinNoSupervisadaTRESCRUCES_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -110,12 +110,12 @@ var lyr_ClasificacinNoSupervisadaSALANCACHI_5 = new ol.layer.Vector({
                 popuplayertitle: 'Clasificación No Supervisada SALANCACHI',
                 interactive: false,
     title: 'Clasificación No Supervisada SALANCACHI<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_0.png" /> 1- VEGETACIÓN<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_1.png" /> 2- VEGETACIÓN DISPERSA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_2.png" /> 3- PASTIZAL<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_3.png" /> 4- INFRAESTRUCTURA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_4.png" /> 5- ÁREA PRODUCTIVA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_5.png" /> 6- SUELO EN DESCANSO<br />' });
+    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_0.png" /> 1 - VEGETACIÓN<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_1.png" /> 2 - VEGETACIÓN DISPERSA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_2.png" /> 3 - PASTIZAL<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_3.png" /> 4 - INFRAESTRUCTURA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_4.png" /> 5 - ÁREA PRODUCTIVA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaSALANCACHI_5_5.png" /> 6 - SUELO EN DESCANSO<br />' });
 var format_ClasificacinNoSupervisadaPOZOALMAR_6 = new ol.format.GeoJSON();
 var features_ClasificacinNoSupervisadaPOZOALMAR_6 = format_ClasificacinNoSupervisadaPOZOALMAR_6.readFeatures(json_ClasificacinNoSupervisadaPOZOALMAR_6, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -211,13 +211,13 @@ var lyr_ClasificacinNoSupervisadaKORIMAYU_10 = new ol.layer.Vector({
                 popuplayertitle: 'Clasificación No Supervisada KORIMAYU',
                 interactive: false,
     title: 'Clasificación No Supervisada KORIMAYU<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_0.png" /> 1. OTRO<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_1.png" /> 2. VEGETACION<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_2.png" /> 3. AREA PRODUCTIVA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_3.png" /> 4. PASTIZALES<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_4.png" /> 5. INFRAESTRUCTURA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_5.png" /> 6. SUELO DESNUDO<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_6.png" /> 7. SUELO EN DESCANSO<br />' });
+    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_0.png" /> 1 - OTRO<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_1.png" /> 2 - VEGETACION<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_2.png" /> 3 - AREA PRODUCTIVA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_3.png" /> 4 - PASTIZALES<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_4.png" /> 5 - INFRAESTRUCTURA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_5.png" /> 6 - SUELO DESNUDO<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaKORIMAYU_10_6.png" /> 7 - SUELO EN DESCANSO<br />' });
 var format_ClasificacinNoSupervisadaCHUNCUSLA_11 = new ol.format.GeoJSON();
 var features_ClasificacinNoSupervisadaCHUNCUSLA_11 = format_ClasificacinNoSupervisadaCHUNCUSLA_11.readFeatures(json_ClasificacinNoSupervisadaCHUNCUSLA_11, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -232,13 +232,13 @@ var lyr_ClasificacinNoSupervisadaCHUNCUSLA_11 = new ol.layer.Vector({
                 popuplayertitle: 'Clasificación No Supervisada CHUNCUSLA',
                 interactive: false,
     title: 'Clasificación No Supervisada CHUNCUSLA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_0.png" /> 1. SUELO DESNUDO<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_1.png" /> 2. PASTIZALES<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_2.png" /> 3. VEGETACION<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_3.png" /> 4. AREA PRODUCTIVA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_4.png" /> 5. INFRAESTRUCTURA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_5.png" /> 6. OTRO<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_6.png" /> 7. SUELO EN DESCANSO<br />' });
+    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_0.png" /> 1 - SUELO DESNUDO<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_1.png" /> 2 - PASTIZALES<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_2.png" /> 3 - VEGETACION<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_3.png" /> 4 - AREA PRODUCTIVA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_4.png" /> 5 - INFRAESTRUCTURA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_5.png" /> 6 - OTRO<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaCHUNCUSLA_11_6.png" /> 7 - SUELO EN DESCANSO<br />' });
 var format_ClasificacinNoSupervisadaCARMENELDORADO_12 = new ol.format.GeoJSON();
 var features_ClasificacinNoSupervisadaCARMENELDORADO_12 = format_ClasificacinNoSupervisadaCARMENELDORADO_12.readFeatures(json_ClasificacinNoSupervisadaCARMENELDORADO_12, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -295,13 +295,13 @@ var lyr_ClasificacinNoSupervisadaBRENCHAH_14 = new ol.layer.Vector({
                 popuplayertitle: 'Clasificación No Supervisada BRENCHA H',
                 interactive: false,
     title: 'Clasificación No Supervisada BRENCHA H<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_0.png" /> VEGETACION ALTA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_1.png" /> AREA PRODUCTIVA<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_2.png" /> SUELO DESNUDO<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_3.png" /> SUELO EN DESCANSO<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_4.png" /> BOSQUE SECUNDARIO<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_5.png" /> BOSQUE NATURAL<br />\
-    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_6.png" /> NEVADO<br />' });
+    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_0.png" /> 1 - VEGETACION ALTA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_1.png" /> 2 - AREA PRODUCTIVA<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_2.png" /> 3 - SUELO DESNUDO<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_3.png" /> 4 - SUELO EN DESCANSO<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_4.png" /> 5 - BOSQUE SECUNDARIO<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_5.png" /> 6 - BOSQUE NATURAL<br />\
+    <img src="styles/legend/ClasificacinNoSupervisadaBRENCHAH_14_6.png" /> 7 - NEVADO<br />' });
 var format_ClasificacinNoSupervisada25DEMAYO_15 = new ol.format.GeoJSON();
 var features_ClasificacinNoSupervisada25DEMAYO_15 = format_ClasificacinNoSupervisada25DEMAYO_15.readFeatures(json_ClasificacinNoSupervisada25DEMAYO_15, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
