@@ -126,7 +126,37 @@
     cursor: pointer;
 }
 
+.top-left-buttons {
+    position: absolute;
+    bottom: 80px;
+    left: 10px;
+    z-index: 10000;
+    background-color: rgba(92, 180, 74, 0.85);
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
+.top-right-buttons button {
+    font-size: 14px;
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    background: #0550ca;
+    color: white;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.top-right-buttons button:hover {
+    background: #0078d4;
+}
+
+
+            
         </style>
 
         <style>
@@ -152,7 +182,11 @@
   <input type="range" id="opacityRange" min="0" max="1" step="0.1" value="1">
 </div>
 
+<div class="top-left-buttons">
+    <button onclick="window.open('https://drive.google.com/file/d/1y1LqDw_GhsaTpCmkTCZpq1YGu2ojqA35/view?usp=sharing', '_blank')">📄 Ver Mapas</button>
+</div>
 
+        
         <script src="resources/qgis2web_expressions.js"></script>
         <script src="./resources/functions.js"></script>
         <script src="./resources/ol.js"></script>
