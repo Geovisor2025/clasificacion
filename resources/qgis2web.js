@@ -530,7 +530,7 @@ var measureControl = (function (Control) {
         }
         if (measuring) {
             /** @type {string} */
-            var helpMsg = 'Click to start drawing';
+            var helpMsg = 'Click para empezar a dibujar';
             if (sketch) {
                 var geom = (sketch.getGeometry());
                 if (geom instanceof ol.geom.Polygon) {
@@ -605,7 +605,7 @@ var measureTooltip;
  * Message to show when the user is drawing a line.
  * @type {string}
  */
-var continueLineMsg = 'Click para continuar dibujando la lniea';
+var continueLineMsg = 'Click para continuar dibujando la linea';
 
 
 
