@@ -885,6 +885,16 @@ var layerSwitcher = new ol.control.LayerSwitcher({
 map.addControl(layerSwitcher);
     
 
+var scaleLineControl = new ol.control.ScaleLine({
+    units: 'metric', // o 'imperial' si prefieres millas
+    bar: true,        // muestra la regla como barra
+    steps: 4,         // número de divisiones
+    text: true,       // muestra texto con la medida
+    minWidth: 100     // ancho mínimo en píxeles
+});
+map.addControl(scaleLineControl);
+
+
 
 // Disable "popup on hover" or "highlight on hover" if ol-control mouseover
 var preDoHover = doHover;
