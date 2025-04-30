@@ -36,21 +36,35 @@
         } 
 
 
-
-.project-title, .subtitle {
+.title-large,
+.title-medium,
+.title-small {
     background: linear-gradient(to right, red, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
+    background-clip: text; /* Fallback para navegadores que lo soporten */
+    color: transparent;
+
     margin: 0;
-    text-align: center;
-    display: inline-block;
+    text-align: left; /* o center, según diseño */
 }
 
-.project-title, .subtitle {
-    background-size: 100%;
-    background-repeat: repeat;
+.title-large {
+    font-size: 24px;
+    font-weight: bold;
 }
+
+.title-medium {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.title-small {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
 
 .top-left-title {
     padding: 10px;
