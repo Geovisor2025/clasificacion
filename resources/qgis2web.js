@@ -66,20 +66,6 @@ var content = document.getElementById('popup-content');
 var closer = document.getElementById('popup-closer');
 var sketch;
 
-closer.onclick = function() {
-    container.style.display = 'none';
-    closer.blur();
-    return false;
-};
-var overlayPopup = new ol.Overlay({
-    element: container,
-	autoPan: true
-});
-map.addOverlay(overlayPopup)
-    
-    
-var NO_POPUP = 0
-var ALL_FIELDS = 1
 
 /**
  * Returns either NO_POPUP, ALL_FIELDS or the name of a single field to use for
